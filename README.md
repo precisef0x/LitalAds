@@ -1,6 +1,6 @@
 # LitalAds
 
-[![CI Status](https://img.shields.io/travis/Ilia Kambarov/LitalAds.svg?style=flat)](https://travis-ci.org/Ilia Kambarov/LitalAds)
+[![CI Status](https://img.shields.io/travis/precisef0x/LitalAds.svg?style=flat)](https://travis-ci.org/precisef0x/LitalAds)
 [![Version](https://img.shields.io/cocoapods/v/LitalAds.svg?style=flat)](https://cocoapods.org/pods/LitalAds)
 [![License](https://img.shields.io/cocoapods/l/LitalAds.svg?style=flat)](https://cocoapods.org/pods/LitalAds)
 [![Platform](https://img.shields.io/cocoapods/p/LitalAds.svg?style=flat)](https://cocoapods.org/pods/LitalAds)
