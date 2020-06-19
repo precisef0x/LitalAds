@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'LitalAds'
-    s.version          = '0.9.5'
+    s.version          = '0.9.6'
     
     s.summary          = 'LitalAds - Ads for Lital'
     s.description      = 'Personalized Lital ads with minigames'
