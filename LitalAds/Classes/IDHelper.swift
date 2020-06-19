@@ -65,32 +65,14 @@ class IDHelper {
     
     func getUniqueIDs(completion: @escaping (_ adsId: String?, _ gcId: String?) -> Void) {
         pleaseDispatchAsync {
+            print("[i] getUniqueIDs() called..")
+            
             let localPlayer = GKLocalPlayer.local
             
             if localPlayer.playerID != "" {
                 completion(self.adsId(), localPlayer.playerID)
             } else {
-                localPlayer.authenticateHandler = {(viewController : UIViewController!, error : Error!) -> Void in
-                    if viewController != nil {
-                        if let currentVC = UIApplication.topViewController() {
-                            pleaseDispatchMainAsync {
-                                currentVC.present(viewController, animated: true) {
-                                    IDHelper.shared.getUniqueIDs { (adsId, gcId) in
-                                        completion(adsId, gcId)
-                                    }
-                                }
-                            }
-                        } else {
-                            completion(self.adsId(), nil)
-                        }
-                    } else {
-                        if localPlayer.isAuthenticated {
-                            completion(self.adsId(), localPlayer.playerID)
-                        } else {
-                            completion(self.adsId(), nil)
-                        }
-                    }
-                }
+                completion(self.adsId(), nil)
             }
         }
     }

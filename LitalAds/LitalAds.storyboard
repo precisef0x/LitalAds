@@ -26,26 +26,59 @@
                                     <constraint firstAttribute="width" constant="64" id="9C0-PV-pca"/>
                                     <constraint firstAttribute="height" constant="64" id="PDc-E9-olG"/>
                                 </constraints>
-                                <inset key="contentEdgeInsets" minX="12" minY="16" maxX="16" maxY="12"/>
+                                <inset key="contentEdgeInsets" minX="12" minY="20" maxX="20" maxY="12"/>
                                 <state key="normal" image="lital-close-button"/>
                                 <connections>
                                     <action selector="closeButtonPressed:" destination="rZm-f4-yHM" eventType="touchUpInside" id="yFf-db-y49"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHE-K2-Z9v">
+                                <rect key="frame" x="44" y="563" width="287" height="30"/>
+                                <state key="normal" title="Авторизоваться через приложение Lital"/>
+                                <connections>
+                                    <action selector="authButtonPressed:" destination="rZm-f4-yHM" eventType="touchUpInside" id="WbC-CH-He7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmG-q5-jlb">
+                                <rect key="frame" x="80" y="605" width="215" height="30"/>
+                                <state key="normal" title="Продолжить без авторизации">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="noAuthButtonPressed:" destination="rZm-f4-yHM" eventType="touchUpInside" id="Ccf-JL-cZk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjE-78-wEl">
+                                <rect key="frame" x="72.5" y="301.5" width="230" height="64.5"/>
+                                <string key="text">Невозможно определить идентификатор устройства
+:(</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rOP-Vy-CAa" firstAttribute="trailing" secondItem="q5W-dP-h9B" secondAttribute="trailing" id="Ikr-Ma-VFd"/>
+                            <constraint firstItem="rOP-Vy-CAa" firstAttribute="bottom" secondItem="kmG-q5-jlb" secondAttribute="bottom" constant="32" id="NxM-bU-UME"/>
+                            <constraint firstItem="kmG-q5-jlb" firstAttribute="centerX" secondItem="rOP-Vy-CAa" secondAttribute="centerX" id="TBN-ME-2vV"/>
+                            <constraint firstItem="kmG-q5-jlb" firstAttribute="top" secondItem="NHE-K2-Z9v" secondAttribute="bottom" constant="12" id="WX0-NM-WQC"/>
                             <constraint firstItem="q5W-dP-h9B" firstAttribute="top" secondItem="rOP-Vy-CAa" secondAttribute="top" id="XhR-Bo-70z"/>
                             <constraint firstItem="bBr-Cx-Bqj" firstAttribute="top" secondItem="q5W-dP-h9B" secondAttribute="top" id="ZMa-fv-xqg"/>
                             <constraint firstItem="bBr-Cx-Bqj" firstAttribute="trailing" secondItem="q5W-dP-h9B" secondAttribute="trailing" id="e6U-QD-CKa"/>
                             <constraint firstItem="q5W-dP-h9B" firstAttribute="leading" secondItem="rOP-Vy-CAa" secondAttribute="leading" id="e9c-Wc-drn"/>
+                            <constraint firstItem="AjE-78-wEl" firstAttribute="centerX" secondItem="rOP-Vy-CAa" secondAttribute="centerX" id="l6y-vh-SJO"/>
+                            <constraint firstItem="NHE-K2-Z9v" firstAttribute="centerX" secondItem="rOP-Vy-CAa" secondAttribute="centerX" id="pnu-8c-l4a"/>
+                            <constraint firstItem="AjE-78-wEl" firstAttribute="centerY" secondItem="rOP-Vy-CAa" secondAttribute="centerY" id="ugD-du-bcN"/>
                             <constraint firstItem="rOP-Vy-CAa" firstAttribute="bottom" secondItem="q5W-dP-h9B" secondAttribute="bottom" id="vg1-kW-ewY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rOP-Vy-CAa"/>
                     </view>
                     <connections>
+                        <outlet property="authButton" destination="NHE-K2-Z9v" id="PG7-Xt-Pcq"/>
                         <outlet property="closeButton" destination="bBr-Cx-Bqj" id="GvB-7Z-jEk"/>
+                        <outlet property="errorLabel" destination="AjE-78-wEl" id="gUe-Yv-WI7"/>
+                        <outlet property="noAuthButton" destination="kmG-q5-jlb" id="ckr-ed-Ubx"/>
                         <outlet property="webView" destination="q5W-dP-h9B" id="hB5-Mt-vBf"/>
                     </connections>
                 </viewController>
