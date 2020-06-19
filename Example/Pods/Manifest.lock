@@ -1,0 +1,16 @@
+PODS:
+  - LitalAds (0.1.0)
+
+DEPENDENCIES:
+  - LitalAds (from `../`)
+
+EXTERNAL SOURCES:
+  LitalAds:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LitalAds: c282e35607afa3ec4f0765758ecdf12654b19810
+
+PODFILE CHECKSUM: 73d3d175b4e048b58d2b3f125435966f6ba4cf8f
+
+COCOAPODS: 1.8.4

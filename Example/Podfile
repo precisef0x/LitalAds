@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LitalAds_Tests' do
+  pod 'LitalAds', :path => '../'
+  
+  
+end

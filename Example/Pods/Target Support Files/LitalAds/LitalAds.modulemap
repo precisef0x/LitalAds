@@ -1,0 +1,6 @@
+framework module LitalAds {
+  umbrella header "LitalAds-umbrella.h"
+
+  export *
+  module * { export * }
+}

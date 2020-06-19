@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lital Ad View Controller-->
+        <scene sceneID="xQA-vQ-b3V">
+            <objects>
+                <viewController storyboardIdentifier="litalAdsVC" id="rZm-f4-yHM" customClass="LitalAdViewController" customModule="LitalAds" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8A5-6W-vbC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q5W-dP-h9B">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBr-Cx-Bqj">
+                                <rect key="frame" x="311" y="0.0" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="9C0-PV-pca"/>
+                                    <constraint firstAttribute="height" constant="64" id="PDc-E9-olG"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="12" minY="16" maxX="16" maxY="12"/>
+                                <state key="normal" image="lital-close-button"/>
+                                <connections>
+                                    <action selector="closeButtonPressed:" destination="rZm-f4-yHM" eventType="touchUpInside" id="yFf-db-y49"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rOP-Vy-CAa" firstAttribute="trailing" secondItem="q5W-dP-h9B" secondAttribute="trailing" id="Ikr-Ma-VFd"/>
+                            <constraint firstItem="q5W-dP-h9B" firstAttribute="top" secondItem="rOP-Vy-CAa" secondAttribute="top" id="XhR-Bo-70z"/>
+                            <constraint firstItem="bBr-Cx-Bqj" firstAttribute="top" secondItem="q5W-dP-h9B" secondAttribute="top" id="ZMa-fv-xqg"/>
+                            <constraint firstItem="bBr-Cx-Bqj" firstAttribute="trailing" secondItem="q5W-dP-h9B" secondAttribute="trailing" id="e6U-QD-CKa"/>
+                            <constraint firstItem="q5W-dP-h9B" firstAttribute="leading" secondItem="rOP-Vy-CAa" secondAttribute="leading" id="e9c-Wc-drn"/>
+                            <constraint firstItem="rOP-Vy-CAa" firstAttribute="bottom" secondItem="q5W-dP-h9B" secondAttribute="bottom" id="vg1-kW-ewY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rOP-Vy-CAa"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="bBr-Cx-Bqj" id="GvB-7Z-jEk"/>
+                        <outlet property="webView" destination="q5W-dP-h9B" id="hB5-Mt-vBf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jl6-DP-SF0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="95.802098950524751"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lital-close-button" width="128" height="128"/>
+    </resources>
+</document>

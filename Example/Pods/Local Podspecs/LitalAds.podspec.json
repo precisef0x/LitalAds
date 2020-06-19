@@ -1,0 +1,22 @@
+{
+  "name": "LitalAds",
+  "version": "0.1.0",
+  "summary": "A short description of LitalAds.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ilia Kambarov/LitalAds",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ilia Kambarov": "me@f0x.pw"
+  },
+  "source": {
+    "git": "https://github.com/Ilia Kambarov/LitalAds.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LitalAds/Classes/**/*"
+}

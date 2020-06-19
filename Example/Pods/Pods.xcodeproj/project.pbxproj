@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224CDA5BF1BFD04D916D15451B1C32BC /* Pods-LitalAds_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A2C144F2016B33550EF67064ED804D /* Pods-LitalAds_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EA27804DCC526EC0F0E19D74A0A3DC3 /* Pods-LitalAds_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3CF2B0B1841770C76CD9E2745CDDA3 /* Pods-LitalAds_Tests-dummy.m */; };
+		841105CCBE5697E5C03209B79264C760 /* LitalAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4E6E3C8844B76CEAF6FCA01FB05EA /* LitalAds.swift */; };
+		985715BE64191831FB9B0E0EAF20A99F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9C2BF54403174A87984C74F7C8A65AD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9D18F9A1D27BD50E073BD19E72637730 /* LitalAds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C86AB464BC573AC65760F97DD410A0A9 /* LitalAds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD01C2D38FB7FE3A17B052544CBC890 /* LitalAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF72C2CF00C4F1517A14D3C74A3F6E9 /* LitalAds-dummy.m */; };
+		FB5221CD249A8CB30042FA75 /* Stuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5221CB249A8CB30042FA75 /* Stuff.swift */; };
+		FB5221CE249A8CB30042FA75 /* IDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5221CC249A8CB30042FA75 /* IDHelper.swift */; };
+		FB5221D0249A8D0F0042FA75 /* LitalAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5221CF249A8D0E0042FA75 /* LitalAdViewController.swift */; };
+		FB5221DF249A94290042FA75 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5221DD249A94290042FA75 /* Media.xcassets */; };
+		FB5221E0249A94290042FA75 /* LitalAds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5221DE249A94290042FA75 /* LitalAds.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9448E76EEE6180E1886C83D9CCB1B141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638D7D6FB1C7D99BD9A1D05D459D4EA6;
+			remoteInfo = LitalAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A2C144F2016B33550EF67064ED804D /* Pods-LitalAds_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LitalAds_Tests-umbrella.h"; sourceTree = "<group>"; };
+		22E18133E5D6B1716B48075BC83599BF /* LitalAds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LitalAds-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32333E19E5F9F6AB8A44CB1D3898C16C /* LitalAds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LitalAds-Info.plist"; sourceTree = "<group>"; };
+		3665AD797C3F283660A1E97DE816688C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BDAD3BF6A94112BF090B33BC4E87DD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6BF72C2CF00C4F1517A14D3C74A3F6E9 /* LitalAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LitalAds-dummy.m"; sourceTree = "<group>"; };
+		6DB4E6E3C8844B76CEAF6FCA01FB05EA /* LitalAds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LitalAds.swift; path = LitalAds/Classes/LitalAds.swift; sourceTree = "<group>"; };
+		7AA640914BC7FD7D1CF64CF73C4C595F /* Pods-LitalAds_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LitalAds_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		824FF8E1EA8111DB50496E5A7DD84EB1 /* Pods-LitalAds_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LitalAds_Tests.modulemap"; sourceTree = "<group>"; };
+		84ACAF1986BA82FF2B29018115C9EB4D /* Pods-LitalAds_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LitalAds_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A6E38FDACD60A3F22B02D0AB6D01CD5 /* Pods-LitalAds_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LitalAds_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E75A8F0B0F67D8D0DED72149438D08 /* Pods-LitalAds_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LitalAds_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AF3CF2B0B1841770C76CD9E2745CDDA3 /* Pods-LitalAds_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LitalAds_Tests-dummy.m"; sourceTree = "<group>"; };
+		B14234FD47B249C70805465605F2D24F /* LitalAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LitalAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86AB464BC573AC65760F97DD410A0A9 /* LitalAds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LitalAds-umbrella.h"; sourceTree = "<group>"; };
+		D0F5EBAEE7FE227DE65E5497D42D5A09 /* LitalAds.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LitalAds.xcconfig; sourceTree = "<group>"; };
+		D2C95F982E60F68CD662D48CE16D173B /* Pods-LitalAds_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LitalAds_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E796EC6181DE20227E7BD9006215B65C /* Pods_LitalAds_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LitalAds_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38F8200E0133496C8A8058039EA912F /* LitalAds.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LitalAds.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB5221CB249A8CB30042FA75 /* Stuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stuff.swift; path = LitalAds/Classes/Stuff.swift; sourceTree = "<group>"; };
+		FB5221CC249A8CB30042FA75 /* IDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IDHelper.swift; path = LitalAds/Classes/IDHelper.swift; sourceTree = "<group>"; };
+		FB5221CF249A8D0E0042FA75 /* LitalAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LitalAdViewController.swift; path = LitalAds/Classes/LitalAdViewController.swift; sourceTree = "<group>"; };
+		FB5221DD249A94290042FA75 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = LitalAds/Media.xcassets; sourceTree = "<group>"; };
+		FB5221DE249A94290042FA75 /* LitalAds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LitalAds.storyboard; path = LitalAds/LitalAds.storyboard; sourceTree = "<group>"; };
+		FDBBAC1F6587184A598C272602F691DC /* Pods-LitalAds_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LitalAds_Tests-Info.plist"; sourceTree = "<group>"; };
+		FE91D085F9B245BF35AC9E6CD290EC19 /* LitalAds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LitalAds.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E80147DAC22FAB05F5E6F5AC5D26D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2BF54403174A87984C74F7C8A65AD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCC36653C927A449DE32AFE7C8A3EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985715BE64191831FB9B0E0EAF20A99F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD7588471F2B81AE47B08F98AB1B8B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE91D085F9B245BF35AC9E6CD290EC19 /* LitalAds.modulemap */,
+				D0F5EBAEE7FE227DE65E5497D42D5A09 /* LitalAds.xcconfig */,
+				6BF72C2CF00C4F1517A14D3C74A3F6E9 /* LitalAds-dummy.m */,
+				32333E19E5F9F6AB8A44CB1D3898C16C /* LitalAds-Info.plist */,
+				22E18133E5D6B1716B48075BC83599BF /* LitalAds-prefix.pch */,
+				C86AB464BC573AC65760F97DD410A0A9 /* LitalAds-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LitalAds";
+			sourceTree = "<group>";
+		};
+		22947327579EC54BF50554D757ECA883 /* Pods-LitalAds_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				824FF8E1EA8111DB50496E5A7DD84EB1 /* Pods-LitalAds_Tests.modulemap */,
+				7AA640914BC7FD7D1CF64CF73C4C595F /* Pods-LitalAds_Tests-acknowledgements.markdown */,
+				84ACAF1986BA82FF2B29018115C9EB4D /* Pods-LitalAds_Tests-acknowledgements.plist */,
+				AF3CF2B0B1841770C76CD9E2745CDDA3 /* Pods-LitalAds_Tests-dummy.m */,
+				A5E75A8F0B0F67D8D0DED72149438D08 /* Pods-LitalAds_Tests-frameworks.sh */,
+				FDBBAC1F6587184A598C272602F691DC /* Pods-LitalAds_Tests-Info.plist */,
+				05A2C144F2016B33550EF67064ED804D /* Pods-LitalAds_Tests-umbrella.h */,
+				9A6E38FDACD60A3F22B02D0AB6D01CD5 /* Pods-LitalAds_Tests.debug.xcconfig */,
+				D2C95F982E60F68CD662D48CE16D173B /* Pods-LitalAds_Tests.release.xcconfig */,
+			);
+			name = "Pods-LitalAds_Tests";
+			path = "Target Support Files/Pods-LitalAds_Tests";
+			sourceTree = "<group>";
+		};
+		43E938EE3AD57A76A7C778D6F59C1740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14234FD47B249C70805465605F2D24F /* LitalAds.framework */,
+				E796EC6181DE20227E7BD9006215B65C /* Pods_LitalAds_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9870743C251BE657EEE737A3FF8780 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAD3BF6A94112BF090B33BC4E87DD4 /* LICENSE */,
+				F38F8200E0133496C8A8058039EA912F /* LitalAds.podspec */,
+				3665AD797C3F283660A1E97DE816688C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A49F532350D70E799C31BB2D2A3B4D86 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC47DB190E203F36C309FA42907FF9 /* LitalAds */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A71D9A47391F7713A11CC4B950E7133E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22947327579EC54BF50554D757ECA883 /* Pods-LitalAds_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCCC47DB190E203F36C309FA42907FF9 /* LitalAds */ = {
+			isa = PBXGroup;
+			children = (
+				6DB4E6E3C8844B76CEAF6FCA01FB05EA /* LitalAds.swift */,
+				FB5221CC249A8CB30042FA75 /* IDHelper.swift */,
+				FB5221CF249A8D0E0042FA75 /* LitalAdViewController.swift */,
+				FB5221CB249A8CB30042FA75 /* Stuff.swift */,
+				FB5221DE249A94290042FA75 /* LitalAds.storyboard */,
+				FB5221DD249A94290042FA75 /* Media.xcassets */,
+				4F9870743C251BE657EEE737A3FF8780 /* Pod */,
+				1CD7588471F2B81AE47B08F98AB1B8B3 /* Support Files */,
+			);
+			name = LitalAds;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A49F532350D70E799C31BB2D2A3B4D86 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				43E938EE3AD57A76A7C778D6F59C1740 /* Products */,
+				A71D9A47391F7713A11CC4B950E7133E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A66BE2BBD1BB8BBA7AF5F1C3577DE3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D18F9A1D27BD50E073BD19E72637730 /* LitalAds-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D230C65DE5B40DDCFB1335D66CD5B58A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224CDA5BF1BFD04D916D15451B1C32BC /* Pods-LitalAds_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		638D7D6FB1C7D99BD9A1D05D459D4EA6 /* LitalAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A3E63E9B904DEB22A9B990A57B28E0 /* Build configuration list for PBXNativeTarget "LitalAds" */;
+			buildPhases = (
+				5A66BE2BBD1BB8BBA7AF5F1C3577DE3D /* Headers */,
+				3C376CE082371ABEF3F151355146B6F1 /* Sources */,
+				C1E80147DAC22FAB05F5E6F5AC5D26D0 /* Frameworks */,
+				8A05036726A14E2D6510E69016AE3F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitalAds;
+			productName = LitalAds;
+			productReference = B14234FD47B249C70805465605F2D24F /* LitalAds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDEDAD00FAC063BDB08EA8D49D10406D /* Pods-LitalAds_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B8A216442B0526532F67E7A4269E63 /* Build configuration list for PBXNativeTarget "Pods-LitalAds_Tests" */;
+			buildPhases = (
+				D230C65DE5B40DDCFB1335D66CD5B58A /* Headers */,
+				F186B7400FFB516F7E515850CE2F5EB1 /* Sources */,
+				FCCC36653C927A449DE32AFE7C8A3EA3 /* Frameworks */,
+				6EA10D99586963DBB51024FB7CEFDBC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3648CFCF973F0475CF0ECBBAC2D0C52 /* PBXTargetDependency */,
+			);
+			name = "Pods-LitalAds_Tests";
+			productName = "Pods-LitalAds_Tests";
+			productReference = E796EC6181DE20227E7BD9006215B65C /* Pods_LitalAds_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 43E938EE3AD57A76A7C778D6F59C1740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638D7D6FB1C7D99BD9A1D05D459D4EA6 /* LitalAds */,
+				FDEDAD00FAC063BDB08EA8D49D10406D /* Pods-LitalAds_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EA10D99586963DBB51024FB7CEFDBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A05036726A14E2D6510E69016AE3F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5221E0249A94290042FA75 /* LitalAds.storyboard in Resources */,
+				FB5221DF249A94290042FA75 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C376CE082371ABEF3F151355146B6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD01C2D38FB7FE3A17B052544CBC890 /* LitalAds-dummy.m in Sources */,
+				FB5221CD249A8CB30042FA75 /* Stuff.swift in Sources */,
+				FB5221D0249A8D0F0042FA75 /* LitalAdViewController.swift in Sources */,
+				841105CCBE5697E5C03209B79264C760 /* LitalAds.swift in Sources */,
+				FB5221CE249A8CB30042FA75 /* IDHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F186B7400FFB516F7E515850CE2F5EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA27804DCC526EC0F0E19D74A0A3DC3 /* Pods-LitalAds_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3648CFCF973F0475CF0ECBBAC2D0C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LitalAds;
+			target = 638D7D6FB1C7D99BD9A1D05D459D4EA6 /* LitalAds */;
+			targetProxy = 9448E76EEE6180E1886C83D9CCB1B141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		161FF02054E3CC64364070B234FC24E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F5EBAEE7FE227DE65E5497D42D5A09 /* LitalAds.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LitalAds/LitalAds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LitalAds/LitalAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LitalAds/LitalAds.modulemap";
+				PRODUCT_MODULE_NAME = LitalAds;
+				PRODUCT_NAME = LitalAds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ED9E770CC38E29AB11495C3B9E0B8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C95F982E60F68CD662D48CE16D173B /* Pods-LitalAds_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LitalAds_Tests/Pods-LitalAds_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LitalAds_Tests/Pods-LitalAds_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96671F82675A4A6B21EE4A46008EEAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F5EBAEE7FE227DE65E5497D42D5A09 /* LitalAds.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LitalAds/LitalAds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LitalAds/LitalAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LitalAds/LitalAds.modulemap";
+				PRODUCT_MODULE_NAME = LitalAds;
+				PRODUCT_NAME = LitalAds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FAAC745D685F03CBD697CEBAE6E2FA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6E38FDACD60A3F22B02D0AB6D01CD5 /* Pods-LitalAds_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LitalAds_Tests/Pods-LitalAds_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LitalAds_Tests/Pods-LitalAds_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B8A216442B0526532F67E7A4269E63 /* Build configuration list for PBXNativeTarget "Pods-LitalAds_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC745D685F03CBD697CEBAE6E2FA23 /* Debug */,
+				7ED9E770CC38E29AB11495C3B9E0B8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A3E63E9B904DEB22A9B990A57B28E0 /* Build configuration list for PBXNativeTarget "LitalAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96671F82675A4A6B21EE4A46008EEAF1 /* Debug */,
+				161FF02054E3CC64364070B234FC24E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
